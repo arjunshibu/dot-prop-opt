@@ -1,4 +1,4 @@
-# dot-prop-opt [![Build Status](https://travis-ci.org/AlexanderVu/dot-prop-opt.svg?branch=master)](https://travis-ci.org/AlexanderVu/dot-prop-optp) [![codecov](https://codecov.io/gh/AlexanderVu/dot-prop-opt/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderVu/dot-prop-opt)
+# dot-prop-opt [![Build Status](https://travis-ci.org/alexanderVu/dot-prop-opt.svg?branch=master)](https://travis-ci.org/alexanderVu/dot-prop-opt) [![codecov](https://codecov.io/gh/AlexanderVu/dot-prop-opt/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderVu/dot-prop-opt)
 
 > Modify nested object properties using a dot path. Package is runtime optimized.
 
