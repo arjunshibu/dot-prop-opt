@@ -1,5 +1,7 @@
 const isObject = require('is-obj')
 
+const isPrototypePolluted = (property) => /__proto__|constructor|prototype/.test(property)
+
 module.exports = {
   get (obj, path, value) {
     if (!isObject(obj) || typeof path !== 'string') {
@@ -36,7 +38,7 @@ module.exports = {
         pointer[property] = propertyCount === index ? value : {}
       }
 
-      pointer = pointer[property]
+      pointer = isPrototypePolluted(property) ? {} : pointer[property]
     })
 
     return obj
